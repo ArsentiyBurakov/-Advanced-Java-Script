@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h3 class="header-logo">Validator</h3>
+        </div>
+    </header>
+    <form action="#" class="some" id="myform">
+        <div class="container">
+            <div class="box-center">
+                <div>
+                    <label>
+                        Твоё имя: <br>
+                        <input type="text" name="name" id="name" class="valid-input">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Твой телефон: <br>
+                        <input type="tel" name="phone" id="phone" class="valid-input">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Твой e-mail <br>
+                        <input type="email" name="email" id="email" class="valid-input">
+                    </label>
+                </div>
+                <button id="val-btn" class="valid-btn">Проверить</button>
+            </div>
+        </div>
+    </form>
+    <script src="Validator.js"></script>
+    <script>
+        window.onload = () => {
+            document.getElementById('myform').addEventListener('submit', e => {
+                let valid = new Validator('myform');
+                if (!valid.valid) {
+                    e.preventDefault();
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
