@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1340px;
+}
+
+.header{
+    background-color: black;
+}
+
+.header-logo{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0 ;
+}
+
+.box-center{
+    text-align: center;
+    margin-top: 25%;
+}
+
+.valid-input {
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.valid-input:focus {
+    outline: none;
+}
+
+.valid-btn {
+    border: none;
+    background: rgb(59, 59, 59);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.valid-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.error-msg {
+    color: red;
+    margin: 10px 0;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.valid {
+    border: 2px solid green;
+}
