@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1340px;
+}
+
+.header-logo{
+    background-color: rgb(34, 134, 180);
+    color: whitesmoke;
+    padding: 30px 0;
+    font-family: Andada+Pro;
+    font-size: 25px;
+}
+
+.header-button{
+    background-color: rgb(97, 97, 97);
+    text-align: right;
+    padding: 20px 0;
+}
+
+.btn-cart{
+    padding: 15px 30px;
+    color: rgb(34, 134, 180);
+    background-color: rgb(97, 97, 97);
+    border: 1px solid rgb(34, 134, 180);
+    font-family: Andada+Pro;
+}
+
+.btn-cart:hover{
+    color: rgb(97, 97, 97);
+    background-color: rgb(34, 134, 180);
+}
+
+.products{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.product-item{
+    width: 25%;
+    background-color: rgb(97, 97, 97);
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.image-item{
+    width: 250px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.item-header{
+    color: rgb(34, 134, 180);
+    font-family: Andada+Pro;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.item-price{
+    color: whitesmoke;
+    font-family: Andada+Pro;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(34, 134, 180);
+}
+
+.price-span{
+    color: whitesmoke;
+}
+
+.buy-btn{
+    padding: 10px 90px;
+    margin: 20px 0;
+    background-color: rgb(34, 134, 180);
+    border: 1px solid rgb(34, 134, 180);
+    font-family: Andada+Pro;
+    color: rgb(97, 97, 97);
+}
+
+.buy-btn:hover{
+    background-color: rgb(97, 97, 97);
+    color: rgb(34, 134, 180);
+}
